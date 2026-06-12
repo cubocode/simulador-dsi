@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import listaPreguntas from './preguntas.json';
+import './App.css';
 
 export default function App() {
   const [preguntasSimulador, setPreguntasSimulador] = useState([]);
@@ -29,7 +30,13 @@ export default function App() {
   }, []);
 
   if (preguntasSimulador.length === 0) {
-    return <div style={{ padding: '20px', textAlign: 'center' }}>Cargando preguntas...</div>;
+    return (
+      <div className="app-wrapper">
+        <div className="simulador-card" style={{ textAlign: 'center', padding: '50px' }}>
+          <p className="app-subtitle">Cargando preguntas...</p>
+        </div>
+      </div>
+    );
   }
 
   const preguntaActual = preguntasSimulador[indiceActual];
@@ -67,49 +74,58 @@ export default function App() {
   };
 
   return (
-    <div style={{ maxWidth: '800px', margin: '40px auto', padding: '20px', fontFamily: 'sans-serif' }}>
-      <h1 style={{ textAlign: 'center' }}>Simulador Parcial DSI</h1>
+    <div className="app-wrapper">
+      <header className="app-header">
+        <h1 className="app-title">Simulador Parcial DSI</h1>
+        <p className="app-subtitle">Practica con preguntas al azar del examen</p>
+      </header>
 
       {!quizTerminado ? (
-        <div style={{ background: '#f9f9f9', padding: '20px', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '20px', color: '#666' }}>
-            <span>Pregunta {indiceActual + 1} de {preguntasSimulador.length}</span>
-            <span>Puntaje: {puntaje}</span>
+        <div className="simulador-card">
+          <div className="stats-row">
+            <span className="stat-badge">Pregunta {indiceActual + 1} de {preguntasSimulador.length}</span>
+            <span className="stat-badge">Puntaje: {puntaje}</span>
           </div>
 
-          <h3 style={{ marginBottom: '20px' }}>{preguntaActual.pregunta}</h3>
+          <div className="progress-container">
+            <div
+              className="progress-bar-fill"
+              style={{ width: `${((indiceActual + 1) / preguntasSimulador.length) * 100}%` }}
+            ></div>
+          </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+          <h3 className="pregunta-titulo">{preguntaActual.pregunta}</h3>
+
+          <div className="opciones-grid">
             {preguntaActual.opciones.map((opcion, idx) => {
-              let colorFondo = '#fff';
-              let colorBorde = '#ccc';
+              let statusClass = '';
+              let suffixIcon = '';
 
               if (respondido) {
                 if (idx === preguntaActual.correcta) {
-                  colorFondo = '#d4edda';
-                  colorBorde = '#28a745';
+                  statusClass = ' correcta';
+                  suffixIcon = '✓';
                 } else if (idx === seleccionado) {
-                  colorFondo = '#f8d7da';
-                  colorBorde = '#dc3545';
+                  statusClass = ' incorrecta';
+                  suffixIcon = '✗';
                 }
               }
+
+              const letras = ['A', 'B', 'C', 'D', 'E', 'F'];
+              const letra = letras[idx] || (idx + 1);
 
               return (
                 <button
                   key={idx}
                   onClick={() => verificarRespuesta(idx)}
                   disabled={respondido}
-                  style={{
-                    padding: '12px',
-                    textAlign: 'left',
-                    background: colorFondo,
-                    border: `1px solid ${colorBorde}`,
-                    borderRadius: '4px',
-                    cursor: respondido ? 'default' : 'pointer',
-                    transition: 'background 0.2s'
-                  }}
+                  className={`opcion-btn${statusClass}`}
                 >
-                  {opcion}
+                  <span>
+                    <span className="opcion-letra">{letra}.</span>
+                    {opcion}
+                  </span>
+                  {suffixIcon && <span style={{ fontWeight: 'bold', fontSize: '1.2rem' }}>{suffixIcon}</span>}
                 </button>
               );
             })}
@@ -118,62 +134,75 @@ export default function App() {
           {respondido && (
             <button
               onClick={avanzarPregunta}
-              style={{
-                marginTop: '20px',
-                padding: '10px 20px',
-                background: '#007bff',
-                color: '#fff',
-                border: 'none',
-                borderRadius: '4px',
-                cursor: 'pointer',
-                float: 'right'
-              }}
+              className="btn-primary siguiente-btn"
             >
-              {indiceActual + 1 === preguntasSimulador.length ? 'Ver Resultados' : 'Siguiente'}
+              {indiceActual + 1 === preguntasSimulador.length ? 'Ver Resultados' : 'Siguiente Pregunta'}
             </button>
           )}
           <div style={{ clear: 'both' }}></div>
         </div>
       ) : (
-        <div style={{ background: '#f9f9f9', padding: '20px', borderRadius: '8px', textAlign: 'center' }}>
-          <h2>¡Simulador Finalizado!</h2>
-          <p style={{ fontSize: '24px', fontWeight: 'bold' }}>
-            Tu Nota: {puntaje} / {preguntasSimulador.length} ({((puntaje / preguntasSimulador.length) * 100).toFixed(0)}%)
+        <div className="simulador-card resultados-container">
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '700' }}>¡Simulador Finalizado!</h2>
+
+          <div className="score-circle">
+            <span className="score-num">{puntaje}</span>
+            <span className="score-total">de {preguntasSimulador.length}</span>
+          </div>
+
+          <p className="score-feedback">
+            Nota obtenida: {((puntaje / preguntasSimulador.length) * 100).toFixed(0)}%
           </p>
+
           <button
             onClick={iniciarSimulador}
-            style={{
-              padding: '12px 24px',
-              background: '#28a745',
-              color: '#fff',
-              border: 'none',
-              borderRadius: '4px',
-              cursor: 'pointer',
-              fontSize: '16px',
-              marginTop: '10px'
-            }}
+            className="btn-primary reiniciar-btn"
           >
-            Volver a intentar (Nuevas preguntas al azar)
+            Volver a intentar (Nuevas preguntas)
           </button>
 
-          <div style={{ marginTop: '30px', textAlign: 'left' }}>
-            <h3>Revisión de respuestas:</h3>
-            {historialRespuestas.map((item, idx) => (
-              <div key={idx} style={{ padding: '10px', borderBottom: '1px solid #ddd', background: item.esCorrecta ? '#f4fff4' : '#fff5f5' }}>
-                <p><strong>{idx + 1}. {item.pregunta}</strong></p>
-                <p style={{ color: item.esCorrecta ? 'green' : 'red', margin: '4px 0' }}>
-                  Tu respuesta: {item.opciones[item.seleccionada]}
-                </p>
-                {!item.esCorrecta && (
-                  <p style={{ color: 'green', margin: '4px 0' }}>
-                    Correcta: {item.opciones[item.correcta]}
-                  </p>
-                )}
-              </div>
-            ))}
+          <div className="revision-seccion">
+            <h3>Revisión de respuestas</h3>
+            {historialRespuestas.map((item, idx) => {
+              const esCorrecta = item.esCorrecta;
+              return (
+                <div
+                  key={idx}
+                  className={`revision-card ${esCorrecta ? 'correcta-card' : 'incorrecta-card'}`}
+                >
+                  <p className="revision-pregunta"><strong>{idx + 1}. {item.pregunta}</strong></p>
+
+                  <div className="revision-respuesta">
+                    <span className={esCorrecta ? 'text-success' : 'text-danger'}>
+                      {esCorrecta ? '✓ Tu respuesta:' : '✗ Tu respuesta:'}
+                    </span>
+                    <span>{item.opciones[item.seleccionada]}</span>
+                  </div>
+
+                  {!esCorrecta && (
+                    <div className="revision-respuesta" style={{ marginTop: '6px' }}>
+                      <span className="text-success">✓ Respuesta correcta:</span>
+                      <span>{item.opciones[item.correcta]}</span>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       )}
+
+      <footer className="app-footer">
+        Desarrollado por{' '}
+        <a
+          href="https://www.cubocode.com.ar/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-link"
+        >
+          Cubo
+        </a>
+      </footer>
     </div>
   );
 }

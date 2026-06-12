@@ -1,0 +1,2236 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Por qué los sistemas de software pueden volverse difíciles de modificar?",
+        "opciones": [
+            "Porque les falta documentación.",
+            "Porque funcionan en computadoras.",
+            "Porque dejamos esa tarea a la IA.",
+            "Porque son complejos.",
+            "Porque no todos saben programar."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Qué diferencia hay entre el diseño de sistemas y el diseño de software?",
+        "opciones": [
+            "El diseño de software incluye aspectos organizacionales y humanos, mientras que el de sistemas no.",
+            "El diseño de software se desarrolla antes que el de sistemas.",
+            "El diseño de sistemas estudia los aspectos del desarrollo y evolución de sistemas complejos, donde el software tiene un papel principal, mientras que el diseño de software se centra exclusivamente en el componente lógico-informático.",
+            "El diseño de sistemas solo se aplica en proyectos de gran envergadura.",
+            "Ambos conceptos son equivalentes y pueden usarse indistintamente."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Cuál de las siguientes actividades forma parte exclusivamente de la ingeniería de sistemas, y no de la ingeniería de software?",
+        "opciones": [
+            "El diseño de políticas y procesos.",
+            "La especificación de requerimientos funcionales de un módulo.",
+            "La elección de algoritmos eficientes para el procesamiento de datos.",
+            "La definición de estructuras de datos para una aplicación determinada.",
+            "El uso de lenguajes de modelado como UML."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Cuál de las siguientes opciones define mejor qué es el software?",
+        "opciones": [
+            "Programas de cómputo y documentación asociada.",
+            "Equipos y componentes físicos de la computadora.",
+            "Aplicaciones móviles y redes.",
+            "Diagramas de flujo y modelos de datos.",
+            "Lenguajes de programación y compiladores."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Por qué es importante comprender y gestionar la especificación y los requerimientos del software?",
+        "opciones": [
+            "Para reducir el número de programadores necesarios.",
+            "Para garantizar que el software coincida con lo que los usuarios necesitan y se entregue a tiempo y dentro del presupuesto.",
+            "Para evitar cambios en el diseño del sistema una vez iniciado el desarrollo.",
+            "Para limitar las pruebas de calidad al mínimo necesario.",
+            "Para acelerar el desarrollo ignorando sugerencias de los usuarios."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 6,
+        "pregunta": "¿En qué se interesa principalmente la Ingeniería del Software?",
+        "opciones": [
+            "Desarrollar nuevos lenguajes de programación.",
+            "Enfocarse en todos los aspectos de la producción de software.",
+            "Crear videojuegos y entretenimiento digital.",
+            "Producir software artístico y visualmente atractivo.",
+            "Diseñar hardware para software específico."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Cuáles son las actividades fundamentales de la Ingeniería de Software?",
+        "opciones": [
+            "Especificación, desarrollo, validación y evolución.",
+            "Diseño, compilación, execution y testeo.",
+            "Codificación, marketing, distribución y mantenimiento.",
+            "Gestión, documentación, entrega y formación.",
+            "Planificación, venta, desarrollo y soporte."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Cuál es la diferencia central entre Ciencias de la Computación e Ingeniería del Software?",
+        "opciones": [
+            "No existe ninguna diferencia real.",
+            "La ciencia se orienta a la teoría y fundamentos, la ingeniería en el sentido práctico del desarrollo y en la distribución del software.",
+            "La ingeniería se basa en simulaciones, la ciencia en matemáticas.",
+            "La ciencia trabaja con sistemas grandes, la ingeniería con pequeños.",
+            "Las ciencias se enfocan en hardware, la ingeniería en software."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Qué distingue a la Ingeniería de Sistemas de la Ingeniería de Software?",
+        "opciones": [
+            "La Ingeniería de Software es parte de la Ingeniería Electrónica.",
+            "La Ingeniería de Software abarca más áreas que la de Sistemas.",
+            "La Ingeniería de Sistemas incluye hardware y procesos, además de software.",
+            "La Ingeniería de Sistemas solo trabaja con redes.",
+            "No hay diferencias; son sinónimos."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Cuál de los siguientes retos enfrenta actualmente la Ingeniería de Software?",
+        "opciones": [
+            "Falta de estándares de trabajo.",
+            "Aumento de la producción de hardware.",
+            "Reducción de salarios y costos de licencia.",
+            "Diversidad creciente, tiempos limitados y necesidad de confiabilidad.",
+            "Dificultad para formar equipos."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Cómo se distribuyen típicamente los costos en un proyecto de Ingeniería de Software?",
+        "opciones": [
+            "50% en capacitación, 50% en licencias.",
+            "30% en hardware, 70% en software.",
+            "90% en diseño, 10% en pruebas.",
+            "100% en mantenimiento post-venta.",
+            "60% en desarrollo y 40% en pruebas."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 12,
+        "pregunta": "¿Qué se puede decir sobre los métodos y técnicas en Ingeniería de Software?",
+        "opciones": [
+            "Los métodos clásicos ya no se utilizan.",
+            "Los métodos deben ser siempre automáticos.",
+            "La elección del método depende del tipo de sistema.",
+            "Todos los métodos son iguales para cualquier sistema.",
+            "Solo los métodos ágiles son recomendables."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 13,
+        "pregunta": "¿Qué se necesita para solucionar problemas derivados de malas prácticas?",
+        "opciones": [
+            "Programar más.",
+            "Más hardware.",
+            "Más documentación del usuario.",
+            "Contratar más ingenieros en sistemas.",
+            "Mejor educación y capacitación."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Cuál de los siguientes enunciados refleja mejor el problema de la heterogeneidad en el desarrollo de software?",
+        "opciones": [
+            "Es la dificultad de diseñar interfaces de usuario atractivas.",
+            "Se refiere a la imposibilidad de mantener el software actualizado.",
+            "Es la falta de recursos humanos calificados en programación.",
+            "Implica la necesidad de operar con distintos dispositivos y lenguajes en un mismo sistema.",
+            "Está relacionado con la rápida obsolescencia del hardware."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Qué desafío plantea el cambio empresarial y social para el desarrollo de software?",
+        "opciones": [
+            "La dificultad de encontrar hardware compatible con las nuevas tecnologías.",
+            "La necesidad de mantener sistemas antiguos sin alteraciones.",
+            "La urgencia de modificar y crear software en tiempos reducidos para responder a nuevas demandas.",
+            "La resistencia de los usuarios a adoptar software nuevo.",
+            "La obligación de cumplir con normas internacionales de comercio electrónico."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 16,
+        "pregunta": "¿Qué incluye la ingeniería de software?",
+        "opciones": [
+            "Especificación minuciosa de los requerimientos del usuario y del sistema.",
+            "Documentación técnica y del Usuario.",
+            "Programación y Pair Programming.",
+            "Validación y pruebas.",
+            "Especificación, diseño y mantenimiento."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 17,
+        "pregunta": "¿Qué son los productos genéricos?",
+        "opciones": [
+            "Sistemas vendidos al mercado general.",
+            "Sistemas hechos para un cliente específico.",
+            "Sistemas que realizamos para la organización en la cual trabajamos.",
+            "Sistemas con interfaces de usuario experimentales.",
+            "Sistemas internos de una organización."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 18,
+        "pregunta": "¿Qué es un prototipo?",
+        "opciones": [
+            "El programa preliminar de un sistema.",
+            "Código que debe ser corregido.",
+            "Versión inicial de un producto o sistema.",
+            "Un ejecutable que se pone a consideración del cliente.",
+            "Lo primero que desarrollamos cuando diseñamos un sistema."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Para qué se utiliza el prototipo en el análisis?",
+        "opciones": [
+            "Apoyar el diseño de interfaces del usuario.",
+            "Elaborar los artefactos del análisis.",
+            "Validar requerimientos.",
+            "Elaborar Casos de Uso efectivos.",
+            "Buscar soluciones específicas de software."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Para qué no se utiliza el prototipo en el diseño?",
+        "opciones": [
+            "Crear un prototipo del diseño de una base de datos.",
+            "Buscar soluciones específicas de software.",
+            "Apoyar el diseño de interfaces del usuario.",
+            "Usar maquetas o prototipos de papel de las pantallas del sistema.",
+            "Seleccionar y validar los requerimientos del sistema."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 21,
+        "pregunta": "¿Cómo define el \"Proceso de Software\"?",
+        "opciones": [
+            "Una serie de actividades relacionadas que llevan a elaborar un producto de software.",
+            "Un ciclo lineal sin posibilidad de retroalimentación.",
+            "Un conjunto de etapas que garantizan la perfección del sistema.",
+            "Un proceso aplicable sólo en desarrollos desde cero.",
+            "Una metodología para documentar el análisis del sistema."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 22,
+        "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor los procesos de software \"dirigidos por un plan\" (plan-driven)?",
+        "opciones": [
+            "Se caracterizan por la ausencia de documentación previa.",
+            "Se adaptan de forma incremental a los cambios del cliente.",
+            "Todas las actividades se planifican con anticipación y el avance se mide contra el plan establecido.",
+            "Permiten modificaciones en cada fase sólo con documentación formal.",
+            "Son exclusivamente aplicados en proyectos ágiles."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Cómo se caracterizan los procesos ágiles?",
+        "opciones": [
+            "Con una planificación detallada inicial que no admite cambios.",
+            "Con la eliminación de la fase de análisis.",
+            "Con un enfoque exclusivo en la documentación formal.",
+            "Con una planificación incremental que facilita la modificación ante requerimientos cambiantes.",
+            "Con desarrollo secuencial sin iteraciones."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Qué afirmación refleja la postura de Ian Sommerville respecto a la existencia de un \"proceso ideal\" de software?",
+        "opciones": [
+            "No hay un proceso ideal; las organizaciones diseñan sus propios procesos.",
+            "El modelo en cascada es considerado el proceso ideal.",
+            "Los procesos de software son simples y estandarizados.",
+            "Existe un único proceso ideal que se debe aplicar a todos los proyectos.",
+            "Solo los procesos ágiles son ideales para cualquier tipo de software."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 25,
+        "pregunta": "¿Qué representan los \"Modelos de proceso de software\"?",
+        "opciones": [
+            "Esquemas exclusivos para sistemas pequeños.",
+            "Representaciones simplificadas del proceso completo de desarrollo de software.",
+            "Procedimientos para eliminar la fase de análisis.",
+            "Métodos para generar automáticamente código sin intervención humana.",
+            "Únicamente diagramas de flujo sin utilidad práctica."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 26,
+        "pregunta": "Ian Sommerville enseña que los modelos en cascada e incremental se usan en conjunto para:",
+        "opciones": [
+            "Evitar la integración de subsistemas.",
+            "Eliminar la fase de validación del software.",
+            "Desarrollar grandes sistemas aprovechando las mejores características de ambos.",
+            "Limitar la interacción del cliente durante el desarrollo.",
+            "Reducir la documentación necesaria en el desarrollo."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Cómo se debe abordar el desarrollo de subsistemas dentro de un sistema más grande?",
+        "opciones": [
+            "Se deben usar enfoques diferentes: partes bien comprendidas con cascada y partes difíciles (como la interfaz de usuario) con desarrollo incremental.",
+            "Siempre se utiliza un único enfoque ágil para garantizar la velocidad.",
+            "Todo el sistema debe desarrollarse de forma homogénea utilizando el modelo en cascada.",
+            "Los subsistemas se ignoran en el diseño del sistema global.",
+            "El desarrollo de subsistemas debe ser independiente de los requerimientos esenciales."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 28,
+        "pregunta": "En el modelo en cascada, ¿qué característica es fundamental?",
+        "opciones": [
+            "Cada fase debe completarse y ser aprobada (firmada) antes de pasar a la siguiente.",
+            "Las fases se pueden solapar sin control de cambios.",
+            "La retroalimentación entre fases está completamente prohibida.",
+            "La documentación es opcional en cada fase.",
+            "Solo se aplica en el mantenimiento del software."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 29,
+        "pregunta": "¿Qué papel juega la retroalimentación entre fases en el proceso en cascada?",
+        "opciones": [
+            "No existe retroalimentación, las fases son totalmente independientes.",
+            "Permite identificar problemas de análisis y diseño, posibilitando iteraciones y rediseños.",
+            "Se aplica exclusivamente en la fase de pruebas.",
+            "Solo se utiliza para actualizar la documentación del usuario.",
+            "La retroalimentación es insignificante y no afecta el desarrollo."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 30,
+        "pregunta": "¿Cómo se define el \"Desarrollo Incremental\"?",
+        "opciones": [
+            "Como un proceso que evita la participación del usuario.",
+            "Como un enfoque utilizado solo en sistemas de gran escala.",
+            "Como la creación de una solución completa desde el inicio.",
+            "Como el diseño de una implementación inicial a la que se le suma retroalimentación y se desarrollan sucesivas versiones.",
+            "Como un método que prescinde del análisis de requerimientos."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 31,
+        "pregunta": "¿Cuál es una de las ventajas del Desarrollo Incremental (DI) en comparación con el Modelo en Cascada (MC)?",
+        "opciones": [
+            "Necesidad de elaborar documentación extensa en cada fase.",
+            "Entrega e implementación más rápida de software útil, aún sin toda la funcionalidad.",
+            "Mayor costo de adaptar requerimientos cambiantes.",
+            "Dificultad para obtener retroalimentación del cliente.",
+            "Mayor rigidez en la planificación inicial."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 32,
+        "pregunta": "Ésta es una problemática asociada al enfoque incremental:",
+        "opciones": [
+            "Facilita la integración entre equipos de gran tamaño sin inconvenientes.",
+            "El incremento garantiza la estabilidad estructural del sistema.",
+            "El proceso puede no ser visible y la estructura del sistema puede degradarse conforme se suman incrementos.",
+            "El costo de cambio se incrementa menos que en el modelo en cascada.",
+            "La visibilidad del proceso es alta para los administradores."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Qué propone la \"Ingeniería de software orientada a la reutilización\"?",
+        "opciones": [
+            "Reemplazar por completo los procesos ágiles por modelos en cascada.",
+            "Reutilizar componentes existentes para reducir el desarrollo, disminuir costos y riesgos, y lograr entregas más rápidas.",
+            "Excluir la validación de los componentes reutilizados.",
+            "Evitar la modificación de cualquier componente reutilizable.",
+            "Desarrollar todo el software desde cero sin componentes previos."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 34,
+        "pregunta": "Ésta es una desventaja de la reutilización:",
+        "opciones": [
+            "La eliminación de riesgos en el proyecto.",
+            "La pérdida de control sobre la evolución del sistema, ya que las nuevas versiones de los componentes no están bajo nuestro control.",
+            "Que siempre se cumplen todas las necesidades del usuario con componentes reutilizables.",
+            "Que se reduce el costo de desarrollo sin desventajas.",
+            "El aumento en la cantidad de software a desarrollar."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 35,
+        "pregunta": "¿En qué consiste la \"Integración del Sistema\"?",
+        "opciones": [
+            "El momento en que se escriben los requerimientos iniciales.",
+            "El proceso donde los componentes se reúnen para crear un nuevo sistema.",
+            "Cuando reunimos todos los requerimientos de un sistema.",
+            "La fase donde se eliminan los componentes comerciales defectuosos.",
+            "Cuando se pone íntegramente el sistema a disposición del cliente."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Por qué se considera \"crítica\" la integración del sistema?",
+        "opciones": [
+            "Debido a que se realiza antes de construir los subsistemas.",
+            "Porque requiere una cuidadosa documentación.",
+            "Porque es un proceso caro y propenso a fallas.",
+            "Due to the fact that subsystems from more than one supplier must work together.",
+            "Porque depende exclusivamente de la habilidad y pericia del equipo de desarrollo."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Qué define al enfoque de integración \"Big-Bang\"?",
+        "opciones": [
+            "Integrar los subsistemas uno por uno de forma cronológica.",
+            "Esperar a que el sistema explote para encontrar errores.",
+            "Desarrollar todo el software en una sola oportunidad.",
+            "Integrar solo componentes comerciales.",
+            "Integrar todos los subsistemas al mismo tiempo."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Cuál es la mejor opción para realizar la integración, por razones técnicas y administrativas?",
+        "opciones": [
+            "Evitar la integración y construir sistemas monolíticos.",
+            "La subcontratación total de la integración a un tercero.",
+            "Integrar primero los componentes más fáciles y dejar el resto para después.",
+            "El enfoque de \"Big-Bang\" para ahorrar tiempo.",
+            "Un proceso de integración incremental."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 39,
+        "pregunta": "Si surge un error durante una integración incremental, ¿dónde es más probable que esté?",
+        "opciones": [
+            "En el hardware que soporta el sistema, antes de instalar el software.",
+            "En el subsistema recientemente integrado o en sus interacciones con los existentes.",
+            "En un subsistema que ya fue integrado y probado con éxito.",
+            "En los requerimientos especificados al inicio del proyecto.",
+            "En el sistema que venimos integrando."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 40,
+        "pregunta": "¿Qué se prueba específicamente durante y después de la integración?",
+        "opciones": [
+            "El funcionamiento del sistema terminado.",
+            "La funcionalidad de las interfaces de usuario.",
+            "Las interfaces entre componentes y el comportamiento del sistema como un todo.",
+            "La satisfacción del usuario con la implementación del sistema.",
+            "La calidad del código."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 41,
+        "pregunta": "¿Cuál es la característica principal de la entrega incremental?",
+        "opciones": [
+            "Se requiere una especificación total antes de iniciar.",
+            "El sistema se entrega en partes que proporcionan subconjuntos de funcionalidad.",
+            "Se centra en entregas parciales del software, que van mejorando paulatinamente la ejecución de un mismo módulo.",
+            "Se basa exclusivamente en la documentación técnica elaborada durante el Análisis.",
+            "Se entrega el sistema completo al final."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 42,
+        "pregunta": "En la entrega incremental, ¿qué servicios se implementan y entregan primero?",
+        "opciones": [
+            "Los menos significativos.",
+            "Los servicios de más alta prioridad.",
+            "Los servicios más complejos técnicamente.",
+            "Los subsistemas que requieren menos pruebas.",
+            "Aquellos que el equipo de diseño elige aleatoriamente."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 43,
+        "pregunta": "¿Qué beneficio proporciona la entrega incremental al cliente?",
+        "opciones": [
+            "Obliga al cliente a aceptar un sistema incompleto.",
+            "Evita la necesidad de pruebas extensivas.",
+            "Permite aprovechar la funcionalidad parcial del sistema de forma anticipada.",
+            "Reduce el costo del software significativamente.",
+            "Elimina la necesidad de definir requerimientos."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 44,
+        "pregunta": "¿Por qué el desarrollo incremental no se aconseja en sistemas críticos?",
+        "opciones": [
+            "Porque un equipo ágil es demasiado rápido y caro para desarrollar un sistema crítico.",
+            "Porque así es más fácil realizar cambios en el software.",
+            "Porque los sistemas críticos siempre son muy grandes.",
+            "Porque los clientes no están apurados para desarrollar sistemas críticos.",
+            "Porque requieren analizar todas las interacciones que comprometan la seguridad o protección."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 45,
+        "pregunta": "¿Qué sucede con los requerimientos durante el desarrollo incremental?",
+        "opciones": [
+            "Son proporcionados por el cliente al jefe de proyecto.",
+            "Se definen todos al inicio.",
+            "Se ignoran hasta que el sistema esté terminado.",
+            "Se analizan los de incrementos posteriores mientras se desarrolla el actual.",
+            "Se analizan antes del diseño."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 46,
+        "pregunta": "¿Cuál es una desventaja del desarrollo incremental?",
+        "opciones": [
+            "No mejora demasiado la calidad del software.",
+            "Es difícil identificar recursos comunes cuando los requerimientos no están definidos con detalle.",
+            "La entrega es siempre demasiado rápida.",
+            "Impide que el cliente vea el sistema antes de terminarlo.",
+            "Es complicada la integración de los incrementos."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 47,
+        "pregunta": "¿Qué caracteriza a un entorno empresarial de rápido movimiento?",
+        "opciones": [
+            "Requerimientos estables a largo plazo.",
+            "Prohibición de cambios en el software.",
+            "Ausencia de competencia.",
+            "Desarrollo basado en planes rígidos.",
+            "Necesidad de desarrollar software rápidamente para aprovechar oportunidades."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 48,
+        "pregunta": "En el desarrollo ágil, ¿cuál es la relación entre especificación, diseño e implementación?",
+        "opciones": [
+            "La especificación siempre precede al diseño.",
+            "Se entrelazan.",
+            "Se eliminan por completo.",
+            "Son etapas independientes y secuenciales.",
+            "Se realizan siempre en momentos distintos."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 49,
+        "pregunta": "¿Qué define el enfoque ágil respecto a la documentación?",
+        "opciones": [
+            "Se minimiza la documentación y se prioriza la comunicación informal.",
+            "La documentación es el objetivo principal del desarrollo.",
+            "Solo se permiten artefactos formalmente aceptados de la metodología.",
+            "La documentación no tiene mayor utilidad.",
+            "Se requieren muchos documentos formales."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 50,
+        "pregunta": "¿Cuál es una diferencia clave entre el enfoque basado en plan y el enfoque ágil?",
+        "opciones": [
+            "En el basado en plan, se usan documentos formales para comunicarse entre etapas.",
+            "En el basado en plan, el diseño y el análisis se realizan en conjunto.",
+            "Ambos usan las mismas herramientas.",
+            "En el ágil, hay etapas separadas con salidas asociadas.",
+            "Ninguno de los dos requiere documentación exhaustiva."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 51,
+        "pregunta": "¿Qué exige el desarrollo de sistemas sujetos a regulación externa?",
+        "opciones": [
+            "Que se realicen pruebas exhaustivas.",
+            "Documentación detallada para ser aprobada por el regulador.",
+            "Desarrollo ágil con documentación.",
+            "Uso exclusivo de programación en parejas.",
+            "Que los programadores tengan acabada experiencia."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 52,
+        "pregunta": "¿Qué establece el Manifiesto Ágil sobre individuos y procesos?",
+        "opciones": [
+            "El individuo es lo único que importa en el desarrollo de software.",
+            "Los procesos son la mejor forma de desarrollar software.",
+            "Los individuos y procesos son la prioridad en los procesos ágiles.",
+            "Los individuos y sus interacciones están sobre procesos y herramientas.",
+            "Los procesos y herramientas son más importantes que los individuos."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 53,
+        "pregunta": "¿Qué prioriza el Manifiesto Ágil sobre la negociación contractual?",
+        "opciones": [
+            "La firma de contratos legales.",
+            "El cumplimiento estricto de las fechas de entrega.",
+            "Los honorarios del equipo de desarrollo.",
+            "La jerarquía de la empresa.",
+            "La colaboración con el cliente."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 54,
+        "pregunta": "Según los principios ágiles, ¿qué tipo de comunicación es la más eficiente?",
+        "opciones": [
+            "Email.",
+            "Conversación cara a cara.",
+            "WhatsApp.",
+            "Memorándums internos.",
+            "Videoconferencias."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 55,
+        "pregunta": "¿Qué significa \"desarrollo sostenible\" en los procesos ágiles?",
+        "opciones": [
+            "Mantener un ritmo constante de forma indefinida.",
+            "Trabajar horas extras constantemente hasta terminar.",
+            "Utilizar solo software abierto.",
+            "Realizar permanentemente pruebas de código.",
+            "Prohibir el uso de productos que no sean amigables con el medio ambiente en la oficina."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 56,
+        "pregunta": "Según Kent Beck, ¿qué es un buen programador?",
+        "opciones": [
+            "Alguien que nació con talento innato.",
+            "Alguien que programa magistralmente sin necesidad de contar con un diseño.",
+            "Alguien que solo programa mejor que en un equipo.",
+            "Alguien que escribe código muy complejo.",
+            "Un buen programador con buenos hábitos."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 57,
+        "pregunta": "¿Qué rol tienen los principios en XP?",
+        "opciones": [
+            "No tienen ninguna utilidad.",
+            "Sustituyen a las prácticas.",
+            "Son actividades de memoria sin propósito.",
+            "Reflejan los valores de forma concreta y práctica.",
+            "Son una manera de entender mejor las prácticas."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 58,
+        "pregunta": "¿Qué valor de XP se refiere a la acción efectiva frente al miedo?",
+        "opciones": [
+            "Respeto.",
+            "Simplicidad.",
+            "Retroalimentación.",
+            "Comunicación.",
+            "Coraje."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 59,
+        "pregunta": "¿En qué consiste la práctica de \"Propiedad Colectiva del código\"?",
+        "opciones": [
+            "El cliente es el único dueño del código.",
+            "El código es de todos los miembros del equipo, nadie posee una parte específica.",
+            "El código es público para todo el mundo.",
+            "Cada programador tiene su propio código y nadie más lo toca.",
+            "El código pertenece a la empresa, no al equipo."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 60,
+        "pregunta": "¿Qué es una \"Historia de Usuario\"?",
+        "opciones": [
+            "Un documento de especificación formal de pocas páginas.",
+            "Un manual de usuario para el cliente.",
+            "Un breve texto donde el cliente especifica lo que necesita.",
+            "Una reseña del proyecto, elaborado después de entrevistarnos con el cliente.",
+            "Un resumen de la historia de la empresa."
+        ],
+        "corrector": 2,
+        "correcta": 2
+    },
+    {
+        "id": 61,
+        "pregunta": "¿Qué ocurre con los requerimientos de los incrementos posteriores en el desarrollo incremental?",
+        "opciones": [
+            "Se definen todos al inicio.",
+            "Son definidos solo por el jefe de proyecto.",
+            "Se establecen como inamovibles.",
+            "Se ignoran hasta que el cliente los pida.",
+            "Se analizan durante el desarrollo del incremento actual."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 62,
+        "pregunta": "¿En qué se basa el Planning Poker para la estimación de tiempos?",
+        "opciones": [
+            "En la rapidez del programador más veloz.",
+            "En una secuencia lineal de números.",
+            "En el uso de cartas para estimar puntos de historia.",
+            "En el juicio exclusivo del Scrum Master.",
+            "En el presupuesto del cliente."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 63,
+        "pregunta": "¿Cómo clasifica el cliente los servicios que proporciona el sistema?",
+        "opciones": [
+            "Por lenguaje de programación y plataforma.",
+            "Por servicios más importantes y menos significativos.",
+            "Por costo y tamaño.",
+            "Por complejidad técnica y arquitectura.",
+            "Por tiempo de desarrollo y fecha de entrega."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 64,
+        "pregunta": "¿Qué sucede si hay mucha discrepancia en las estimaciones durante el Planning Poker?",
+        "opciones": [
+            "Se acepta el promedio.",
+            "Se elige el valor más alto.",
+            "El Scrum Master decide el valor final.",
+            "Se pide la opinión del dueño del producto.",
+            "El equipo discute las diferencias para construir una imagen común."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 65,
+        "pregunta": "En la Pila de Producto (Product Backlog), ¿qué unidad se utiliza para la Estimación Inicial?",
+        "opciones": [
+            "Dólares por hora.",
+            "Porcentaje de avance.",
+            "Días de calendario.",
+            "Puntos de historia.",
+            "Horas de trabajo."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 66,
+        "pregunta": "¿Qué representa la carta \"0\" en el método de Planning Poker?",
+        "opciones": [
+            "Que la historia es prácticamente nada (pocos minutos).",
+            "Que la historia requiere un día entero.",
+            "Que la historia debe eliminarse.",
+            "Que la historia es imposible de hacer.",
+            "Que la historia está incompleta."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 67,
+        "pregunta": "¿Por qué la secuencia de cartas en el Planning Poker no es lineal?",
+        "opciones": [
+            "Para complicar la estimación.",
+            "Porque el software no es lineal.",
+            "Para ahorrar estimaciones innecesarias.",
+            "Porque las estimaciones pequeñas no importan.",
+            "Para evitar una falsa sensación de exactitud en estimaciones grandes."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 68,
+        "pregunta": "¿Qué es la Pila de Producto?",
+        "opciones": [
+            "Es una lista priorizada de requisitos, historias, o funcionalidades: cosas que el cliente quiere",
+            "El historial de cambios del proyecto.",
+            "Breve texto donde el cliente especifica lo que necesita en palabras simples.",
+            "Un documento técnico de arquitectura.",
+            "Reportes de errores del sistema."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 69,
+        "pregunta": "¿Cómo se describe el nombre de una historia en la Pila de Producto?",
+        "opciones": [
+            "Normalmente de 2 a 10 palabras.",
+            "Describiendo técnicamente los inconvenientes que resuelve.",
+            "De forma larga y detallada.",
+            "Depende del lenguaje de programación que utilicemos.",
+            "Solo con números."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 70,
+        "pregunta": "¿A qué equivalen los \"puntos de historia\"?",
+        "opciones": [
+            "A dólares.",
+            "A días hábiles de trabajo.",
+            "A líneas de código.",
+            "A \"días-persona ideales\".",
+            "A horas de programación."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 71,
+        "pregunta": "Éste no es un campo de la Pila de Producto.",
+        "opciones": [
+            "ID - Identificador Único.",
+            "Historias",
+            "Nombre - Descripción Corta de la historia",
+            "Importancia",
+            "Estimación Inicial"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 72,
+        "pregunta": "¿Quién ordena la Pila de Producto?",
+        "opciones": [
+            "El mercado.",
+            "El Scrum Master.",
+            "El dueño del producto.",
+            "El equipo.",
+            "La organización que nos contrató."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 73,
+        "pregunta": "¿Qué sucede si hay discrepancia en la estimación del Planning Poker?",
+        "opciones": [
+            "Se discuten las diferencias hasta arribar a una estimación común.",
+            "Se elige la mayor.",
+            "Se cancela la tarea.",
+            "Se elige al azar, mediante el Poker.",
+            "Se elige la menor."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 74,
+        "pregunta": "¿Qué se define en el Sprint Planning (Planificación de Sprint)?",
+        "opciones": [
+            "Los errores de la versión anterior.",
+            "El presupuesto final.",
+            "El diseño del sistema que debemos desarrollar.",
+            "Qué se entregará, cómo se logrará y el objetivo del Sprint.",
+            "Las vacaciones del equipo."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 75,
+        "pregunta": "¿Cuál es uno de los componentes principales de Scrum?",
+        "opciones": [
+            "Aprobaciones formales de cada incremento.",
+            "Equipos de trabajo jerárquicos.",
+            "Sprints (iteraciones de tiempo fijo).",
+            "Fases periódicas de documentación.",
+            "Entregas bimestrales."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 76,
+        "pregunta": "¿Qué duración típica tiene un Sprint en Scrum?",
+        "opciones": [
+            "Se define en cada fase.",
+            "3 semanas.",
+            "1 semana.",
+            "Varía según lo acordado con el cliente.",
+            "6 días."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 77,
+        "pregunta": "¿Qué se estima en Planning Poker?",
+        "opciones": [
+            "El tiempo de las reuniones.",
+            "El tiempo que va a llevar al equipo terminar el sistema.",
+            "El tiempo del Sprint completo.",
+            "El total de tiempo necesario para la historia.",
+            "Solo la parte propia del trabajo."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 78,
+        "pregunta": "Un sprint es",
+        "opciones": [
+            "Descripción a alto nivel de cómo se demostrará cada historia.",
+            "Breve explicación de lo que el equipo planea lograr en este incremento.",
+            "Algo que el cliente quiere implementar.",
+            "El objeto de las reuniones que hay Scrum.",
+            "Período breve de tiempo fijo en el que un equipo de Scrum trabaja."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 79,
+        "pregunta": "En la estimación inicial de la Pila de Producto, si a 3 personas les lleva 4 días terminar una historia, ¿cuál es la estimación en puntos de historia?",
+        "opciones": [
+            "4 puntos.",
+            "7 puntos.",
+            "1 punto.",
+            "12 puntos.",
+            "3 puntos."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 80,
+        "pregunta": "Cuál es uno de los principios que rige el trabajo dentro de un Sprint?",
+        "opciones": [
+            "Finalizar todas las tareas antes de que el equipo pueda descansar.",
+            "El alcance y la importancia los fija el Dueño de Producto.",
+            "No aceptar cambios bajo ninguna condición.",
+            "Duplicar las funcionalidades previstas.",
+            "Ampliar constantemente el alcance del Sprint."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 81,
+        "pregunta": "¿Cuál es el objetivo principal del diseño arquitectónico en el desarrollo de software?",
+        "opciones": [
+            "Definir los requisitos funcionales.",
+            "Establecer la estructura global del sistema.",
+            "Facilitar su operabilidad.",
+            "Crear el código fuente del sistema.",
+            "Determinar los costos del proyecto."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 82,
+        "pregunta": "¿Qué representa el modelo arquitectónico como salida del diseño arquitectónico?",
+        "opciones": [
+            "El cronograma de entregas.",
+            "Los casos de uso.",
+            "El diseño de la interfaz de usuario.",
+            "El conjunto de componentes del sistema y su comunicación.",
+            "La documentación del usuario."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 83,
+        "pregunta": "¿Por qué en metodologías ágiles se diseña una arquitectura global desde el inicio?",
+        "opciones": [
+            "Para evitar la documentación excesiva.",
+            "Para minimizar el costo de codificación.",
+            "Para poder automatizar las pruebas.",
+            "Porque refactorizar la arquitectura es más complejo que refactorizar componentes.",
+            "Para cumplir con estándares internacionales."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 84,
+        "pregunta": "¿Cuál de los siguientes no es un beneficio del diseño arquitectónico?",
+        "opciones": [
+            "Análisis del sistema.",
+            "Abaratar costos de desarrollo iniciales.",
+            "Gestión de la complejidad.",
+            "Facilitar la reutilización.",
+            "Comunicación entre los participantes."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 85,
+        "pregunta": "¿Qué tipo de requerimientos dependen principalmente de la arquitectura?",
+        "opciones": [
+            "No funcionales.",
+            "Funcionales.",
+            "Económicos.",
+            "Tecnológicos.",
+            "Administrativos."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 86,
+        "pregunta": "¿Qué representa un recuadro en un diagrama de bloques arquitectónico?",
+        "opciones": [
+            "Una clase.",
+            "Una actividad de negocio.",
+            "Un proceso.",
+            "Un requerimiento.",
+            "Un componente del sistema."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 87,
+        "pregunta": "¿Qué representa una flecha en un diagrama de bloques?",
+        "opciones": [
+            "Una decisión del usuario.",
+            "Un caso de uso.",
+            "Flujo de datos o control.",
+            "La actividad del usuario.",
+            "Una comunicación con el exterior."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 88,
+        "pregunta": "¿Cuál de estas no es una pregunta clave del diseño arquitectónico?",
+        "opciones": [
+            "¿Qué patrón puede utilizarse?",
+            "¿Cómo se documentará la arquitectura?",
+            "¿Qué estructura tendrá el sistema?",
+            "¿Cómo se dividirá en subcomponentes?",
+            "¿Cómo reaccionará el usuario frente al producto?"
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 89,
+        "pregunta": "¿Qué patrón arquitectónico es más apropiado para proteger los activos en capas internas?",
+        "opciones": [
+            "Arquitectura orientada a servicios.",
+            "Arquitectura en capas.",
+            "Cliente-servidor.",
+            "Repositorio.",
+            "Proceso por lotes."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 90,
+        "pregunta": "¿Cuál es una ventaja del patrón de capas?",
+        "opciones": [
+            "Mayor acceso directo a la base de datos.",
+            "Mejora de la seguridad en todos los niveles.",
+            "Facilita las pruebas.",
+            "Intercambiabilidad de capas si se conserva la interfaz."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 91,
+        "pregunta": "¿Qué patrón arquitectónico centraliza el manejo de datos?",
+        "opciones": [
+            "Repositorio.",
+            "Arquitectura de Tubería y Filtro.",
+            "Arquitectura centrada en capas.",
+            "Cliente-servidor.",
+            "Componentes distribuidos."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 92,
+        "pregunta": "¿Cuál es una desventaja del patrón de repositorio?",
+        "opciones": [
+            "Baja modularidad.",
+            "Es difícil integrar nuevos componentes si sus modelos de datos no se ajustan al esquema acordado.",
+            "Alta latencia.",
+            "Falta de documentación.",
+            "Dificultad para representar la interfaz de usuario."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 93,
+        "pregunta": "¿Qué estrategia mejora la disponibilidad del sistema?",
+        "opciones": [
+            "Limitación del acceso.",
+            "Inclusión de redundancia.",
+            "Centralización de funciones.",
+            "Aislamiento de usuarios.",
+            "Minimización de capas."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 94,
+        "pregunta": "¿Cuál es la vista arquitectónica que representa la distribución en hardware?",
+        "opciones": [
+            "Vista de procesos.",
+            "Vista de implementación.",
+            "Vista de diseño.",
+            "Vista física.",
+            "Vista lógica."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 95,
+        "pregunta": "¿Qué vista representa la descomposición del sistema para la implementación?",
+        "opciones": [
+            "Vista física.",
+            "Vista de procesos.",
+            "Vista de desarrollo.",
+            "Vista funcional.",
+            "Vista lógica."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 96,
+        "pregunta": "¿Cuál de estas vistas muestra procesos en interacción?",
+        "opciones": [
+            "Vista de componentes.",
+            "Vista física.",
+            "Vista de procesos.",
+            "Vista lógica.",
+            "Vista de interfaz."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 97,
+        "pregunta": "¿Qué vista muestra las abstracciones del sistema como clases u objetos?",
+        "opciones": [
+            "Vista física.",
+            "Vista de desarrollo.",
+            "Vista técnica.",
+            "Vista de procesos.",
+            "Vista lógica."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 98,
+        "pregunta": "¿Por qué muchas veces deberemos encontrar soluciones de compromiso en las decisiones arquitectónicas?",
+        "opciones": [
+            "Por exigencias del cliente.",
+            "Por conflictos entre requerimientos no funcionales.",
+            "Por ausencia de desarrolladores.",
+            "Por imposibilidad de ejecutar pruebas."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 99,
+        "pregunta": "¿Qué tipo de sistema suele requerir las 4 vistas arquitectónicas completas?",
+        "opciones": [
+            "Sistema crítico.",
+            "Aplicación móvil.",
+            "Sistema multiusuario.",
+            "Sistema tipo ecommerce.",
+            "Sistema embebido."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 100,
+        "pregunta": "¿Cuál de las siguientes afirmaciones es verdadera respecto al diseño arquitectónico?",
+        "opciones": [
+            "Se define al finalizar el proyecto.",
+            "Sirve como vínculo entre el análisis y el diseño detallado.",
+            "Es más importante que los requisitos funcionales.",
+            "Solo se aplica en metodologías ágiles."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 101,
+        "pregunta": "¿Qué caracteriza a una arquitectura cliente-servidor?",
+        "opciones": [
+            "La comunicación entre componentes es siempre síncrona.",
+            "Todos los elementos del sistema deben estar en el mismo equipo.",
+            "Los clientes acceden a servicios ofrecidos por uno o más servidores.",
+            "Todos los clientes se conocen entre sí.",
+            "Los servidores no tienen funciones específicas."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 102,
+        "pregunta": "¿Cuál es una ventaja principal del modelo cliente-servidor?",
+        "opciones": [
+            "Separa responsabilidades, facilitando la independencia entre cliente y servidor.",
+            "Permite el uso de redes.",
+            "No requiere protocolos de comunicación.",
+            "Permite usar solo un servidor para todo.",
+            "Aumenta la necesidad de bases de datos."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 103,
+        "pregunta": "En la arquitectura cliente-servidor, ¿qué deben conocer los clientes?",
+        "opciones": [
+            "Los datos almacenados por otros clientes.",
+            "La tecnología usada por el servidor.",
+            "La ubicación física de cada servidor.",
+            "El diseño del código fuente de los servicios.",
+            "Qué servicios ofrecen los servidores y cómo acceder a ellos."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 104,
+        "pregunta": "¿Qué característica distingue a los servidores en la arquitectura cliente-servidor?",
+        "opciones": [
+            "Proveen servicios sin necesidad de conocer a los clientes.",
+            "Son dependientes del cliente.",
+            "Están integrados al navegador web del cliente.",
+            "Ejecutan solamente interfaces gráficas.",
+            "Necesitan estar en la misma máquina que el cliente."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 105,
+        "pregunta": "¿Qué tipo de protocolo se utiliza típicamente en sistemas cliente-servidor distribuidos?",
+        "opciones": [
+            "POP3",
+            "SMTP",
+            "Bluetooth",
+            "FTP",
+            "HTTP u otros protocolos de Internet."
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 106,
+        "pregunta": "¿Qué representa cada recuadro en una arquitectura de tubería y filtro?",
+        "opciones": [
+            "Una vista arquitectónica",
+            "Un componente transformador de datos",
+            "Un subcomponente de red",
+            "Un menú interactivo",
+            "Una interfaz de usuario"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 107,
+        "pregunta": "¿Cómo circulan los datos en una arquitectura de tubería y filtro?",
+        "opciones": [
+            "Fluyen secuencial o paralelamente a través de transformadores",
+            "Son almacenados en bases de datos intermedias",
+            "Se envían a servidores independientes",
+            "Por comunicación directa con el usuario",
+            "A través de procesos simultáneos sin relación"
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 108,
+        "pregunta": "¿Cuál es una limitación clara de la arquitectura de tubería y filtro?",
+        "opciones": [
+            "Requires multiple servers",
+            "No es apta para sistemas interactivos",
+            "No se puede usar para grandes volúmenes de datos",
+            "Consume demasiados recursos de red",
+            "No permite paralelismo"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 109,
+        "pregunta": "Éste es un ejemplo de arquitectura de tubería y filtro",
+        "opciones": [
+            "Sistema de videojuegos en línea",
+            "Monitorización de sensores en tiempo real",
+            "Sistema de facturación con procesamiento por lotes",
+            "Navegación por Internet",
+            "Edición colaborativa de documentos"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 110,
+        "pregunta": "¿Qué tipo de datos procesa típicamente un sistema de procesamiento de transacciones?",
+        "opciones": [
+            "Imágenes y sonidos",
+            "Datos gráficos",
+            "Sensores de temperatura",
+            "Consultas y actualizaciones de bases de datos",
+            "Texto plano sin estructura"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 111,
+        "pregunta": "¿Qué condición debe cumplirse para que una transacción sea válida?",
+        "opciones": [
+            "Ser ingresada por un operador",
+            "Todas sus operaciones deben completarse correctamente",
+            "Ser enviada por un cliente registrado",
+            "No incluir más de dos operaciones",
+            "Pasar por un control de seguridad previo"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 112,
+        "pregunta": "¿Cuál de las siguientes opciones describe mejor una transacción?",
+        "opciones": [
+            "Una secuencia de comandos condicionales",
+            "Un conjunto de gráficos visuales",
+            "Una función de base de datos",
+            "Un tipo de mensaje de control",
+            "Una unidad atómica de operaciones coherentes"
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 113,
+        "pregunta": "¿Qué componentes incluye la arquitectura de un sistema de transacciones?",
+        "opciones": [
+            "Redes neuronales",
+            "Cliente, servidor y navegador",
+            "Solo una base de datos central",
+            "Entrada, interfaz gráfica y API externa",
+            "Entrada, procesamiento, base de datos"
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 114,
+        "pregunta": "Éste es un ejemplo de un sistema de procesamiento de transacciones",
+        "opciones": [
+            "Plataforma de streaming",
+            "Videollamada",
+            "Sistema operativo",
+            "Cajero automático",
+            "Editor de imágenes"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 115,
+        "pregunta": "¿Qué función cumple la lógica de aplicación en un sistema de procesamiento de transacciones?",
+        "opciones": [
+            "Traducir entre lenguajes de programación",
+            "Diseñar la interfaz gráfica",
+            "Enviar reportes al usuario",
+            "Coordinar las acciones entre la entrada y la base de datos",
+            "Controlar la fuente de alimentación"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 116,
+        "pregunta": "¿Cuál es uno de los usos de las arquitecturas de aplicación?",
+        "opciones": [
+            "Servir como punto de partida para el diseño de sistemas",
+            "Crear lenguajes de programación nuevos",
+            "Controlar el acceso a servidores",
+            "Suplantar la lógica de negocio",
+            "Definir la interfaz gráfica"
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 117,
+        "pregunta": "¿Qué otro uso tienen las arquitecturas de aplicación?",
+        "opciones": [
+            "Crear nuevos patrones de diseño",
+            "Diseñar dispositivos embebidos",
+            "Generar documentación de UML",
+            "Aumentar la velocidad del sistema",
+            "Servir como lista de verificación del diseño"
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 118,
+        "pregunta": "¿Qué rol cumple el \"vocabulario común\" que aportan las arquitecturas de aplicación?",
+        "opciones": [
+            "Permite discutir sobre aplicaciones dentro del equipo",
+            "Se usa para controlar versiones",
+            "Mejora la seguridad de las transacciones",
+            "Reemplaza los manuales de usuario",
+            "Facilita el entrenamiento técnico"
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 119,
+        "pregunta": "¿Qué hacen los sistemas de procesamiento de lenguaje natural?",
+        "opciones": [
+            "Transforman lenguaje natural en otra representación",
+            "Ejecutan comandos del sistema operativo",
+            "Transmiten datos binarios",
+            "Codifican imágenes para impresión",
+            "Procesan señales eléctricas"
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 120,
+        "pregunta": "¿Cuál es un ejemplo de procesamiento de lenguaje natural?",
+        "opciones": [
+            "Compresión de archivos ZIP",
+            "Detección de spam",
+            "Traducción automática entre idiomas",
+            "Análisis de protocolos TCP/IP",
+            "Depuración de errores"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 121,
+        "pregunta": "¿Qué representa la sigla FURPS en el modelo de calidad?",
+        "opciones": [
+            "Funcionalidad, Usabilidad, Confiabilidad (Reliability), Rendimiento (Performance), Soporte (Supportability)",
+            "Funcional, Universal, Rápido, Predictivo, Seguro",
+            "Funcional, Único, Rendimiento, Precisión, Seguridad",
+            "Flexibilidad, Usabilidad, Redundancia, Prioridad, Simplicidad",
+            "Funcionalidad, Usabilidad, Robustez, Protección, Seguridad"
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 122,
+        "pregunta": "¿A qué alude el signo \"+\" en FURPS+?",
+        "opciones": [
+            "Requisitos secundarios de diseño",
+            "Solo herramientas de desarrollo",
+            "Limitaciones, interfaces y aspectos legales",
+            "Casos de uso alternativos",
+            "Submódulos funcionales"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 123,
+        "pregunta": "¿Qué tipo de requisitos clasifica el modelo FURPS+ además de los funcionales?",
+        "opciones": [
+            "Requisitos operativos",
+            "Requisitos no funcionales",
+            "Requisitos contractuales",
+            "Requisitos del cliente",
+            "Requisitos de diseño visual"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 124,
+        "pregunta": "¿Cuál de estos ejemplos corresponde a un requisito no funcional?",
+        "opciones": [
+            "Permitir cancelar la operación",
+            "Validar contraseña de usuario",
+            "Registrar nuevos usuarios",
+            "El sistema debe responder en menos de 2 segundos",
+            "Enviar correo electrónico de bienvenida"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 125,
+        "pregunta": "¿Dónde se documentan los requisitos funcionales típicamente?",
+        "opciones": [
+            "En el Diagrama de Despliegue",
+            "En los memorándums técnicos",
+            "En los casos de uso",
+            "En el manual técnico",
+            "En los diagramas de paquetes"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 126,
+        "pregunta": "¿Qué representan los requisitos no funcionales dentro del análisis arquitectónico?",
+        "opciones": [
+            "Requisitos opcionales que pueden omitirse",
+            "Condicionantes importantes del diseño de la arquitectura",
+            "Requisitos que se representan en los Diagramas de Clases",
+            "Requisitos menos importantes que los funcionales",
+            "Requerimientos que el sistema debe realizar"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 127,
+        "pregunta": "¿Cuál es la primera etapa del análisis arquitectónico?",
+        "opciones": [
+            "Completar el análisis de los requerimientos",
+            "Investigación arquitectónica (identificación de requisitos no funcionales)",
+            "Resolución de los requisitos no funcionales del sistema",
+            "Realizar decisiones sobre la Arquitectura",
+            "Evaluar los Casos de Uso"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 128,
+        "pregunta": "¿Qué se realiza en la etapa de diseño arquitectónico?",
+        "opciones": [
+            "Revisión de requisitos no funcionales",
+            "Elaboración de los artefactos del Análisis relacionados con la Arquitectura",
+            "Toma de decisiones para resolver impactos de los requisitos no funcionales",
+            "Completar el análisis de los requerimientos",
+            "Investigación arquitectónica (identificación de requisitos no funcionales)"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 129,
+        "pregunta": "¿Qué estructura permite especificar un requisito no funcional de manera precisa y medible?",
+        "opciones": [
+            "Diagrama de clases",
+            "Escenario de calidad",
+            "Caso de uso",
+            "SAD",
+            "Diagrama de Despliegue"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 130,
+        "pregunta": "¿Cuál es la estructura básica de un escenario de calidad?",
+        "opciones": [
+            "Acción condición - resultado",
+            "Actor - flujo de eventos",
+            "Evento - mensaje - feedback",
+            "Disparador - condición excepción",
+            "Estímulo - respuesta cuantificable"
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 131,
+        "pregunta": "¿Qué función cumple una tabla de factores en el análisis arquitectónico?",
+        "opciones": [
+            "Documentar toda la arquitectura",
+            "Explicitar los patrones arquitectónicos que se van a aplicar",
+            "Describir los factores que determinan las interfaces",
+            "Identificar, analizar y priorizar requisitos no funcionales relevantes",
+            "Exhibir los trabajos del Diseño Arquitectónico"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 132,
+        "pregunta": "¿Qué tipo de documento explica las decisiones arquitectónicas tomadas y sus fundamentos?",
+        "opciones": [
+            "Memorándum Técnico",
+            "Vistas de la Arquitectura",
+            "Diagrama de Despliegue",
+            "Tabla de Factores",
+            "Diagrama de Paquetes"
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 133,
+        "pregunta": "¿Cuál es una utilidad clave de los memorándums técnicos?",
+        "opciones": [
+            "Explicitar los patrones arquitectónicos que se van a aplicar",
+            "Documentar toda la arquitectura",
+            "Exhibir los trabajos del Diseño Arquitectónico",
+            "Identificar, analizar y priorizar requisitos no funcionales relevantes",
+            "Justificar y documentar decisiones arquitectónicas"
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 134,
+        "pregunta": "¿Qué tipo de restricción se considera prioridad 1 en decisiones arquitectónicas?",
+        "opciones": [
+            "Restricciones legales o de seguridad",
+            "Plazo de entrega",
+            "Los objetivos del negocio",
+            "La limitación de los recursos",
+            "Restricciones económicas"
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 135,
+        "pregunta": "What document centralizes the architecture decisions of a system?",
+        "opciones": [
+            "Technical Memorandum",
+            "Software Architecture Document (SAD)",
+            "Table of Factors",
+            "Deployment Diagram",
+            "Package Diagram with System Views"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 136,
+        "pregunta": "¿Qué tipo de contenido incluye el SAD?",
+        "opciones": [
+            "Vistas Arquitectónicas y Tablas de Factores",
+            "Vistas Arquitectónicas y Memorándums Técnicos",
+            "Escenarios de Calidad y Memorándums Técnicos",
+            "Tabla de Factores y Memorándums Técnicos",
+            "Escenarios de Calidad y Tabla de Factores"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 137,
+        "pregunta": "What does the logical view represent?",
+        "opciones": [
+            "Deliverables and things that create deliverables",
+            "Physical components",
+            "Classes, interfaces and subsystems",
+            "Most significant use cases for architecture",
+            "Processes and execution threads"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 138,
+        "pregunta": "¿Cuál de estas vistas se enfoca en hilos y procesos?",
+        "opciones": [
+            "Vista de despliegue",
+            "Vista de procesos",
+            "Vista de datos",
+            "Vista de casos de uso",
+            "Vista lógica"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 139,
+        "pregunta": "¿Qué afirmación es verdadera sobre las interfaces en UML?",
+        "opciones": [
+            "Deben tener visibilidad pública en todos los casos",
+            "No pueden ser utilizadas en clases abstractas",
+            "Se dibujan como clases con herencia",
+            "Solo definen operaciones, sin implementación",
+            "Incluyen atributos internos"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 140,
+        "pregunta": "¿Cuál es la función principal de los paquetes en UML?",
+        "opciones": [
+            "Representar clases dentro del sistema",
+            "Concretar la Vista de Despliegue",
+            "Definir el diseño de interfaces de componentes",
+            "Organizar elementos relacionados y controlar su visibilidad",
+            "Reemplazar al SAD como herramienta de documentación de la Arquitectura"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 141,
+        "pregunta": "¿Qué es un componente en el contexto del diseño arquitectónico de software?",
+        "opciones": [
+            "Un lenguaje de programación específico",
+            "Un objeto de base de datos",
+            "Una parte lógica, reemplazable del sistema, que realiza interfaces",
+            "Un módulo que solo contiene datos",
+            "Un conjunto de variables estáticas"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 142,
+        "pregunta": "¿Qué problema presentan los desarrollos monolíticos?",
+        "opciones": [
+            "Complica su implementación en sistemas distribuidos",
+            "Deficiencias en los datos",
+            "Mayor compatibilidad con redes",
+            "Ausencia de puertos",
+            "Dificultad para modificar o eliminar partes no deseadas"
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 143,
+        "pregunta": "¿Qué permite solucionar la construcción de sistemas por componentes bien definidos?",
+        "opciones": [
+            "Aumento del rendimiento",
+            "Evita la duplicación de puertos",
+            "La posibilidad de enlazar y reemplazar partes del sistema fácilmente",
+            "Incrementar indefinidamente sus usuarios",
+            "Eliminación de interfaces superfluas"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 144,
+        "pregunta": "¿Qué es una interfaz en diseño de componentes?",
+        "opciones": [
+            "Un conjunto de clases",
+            "Un proceso que enlaza dos subsistemas",
+            "Equivale a la capa de presentación en el patrón de Arquitectura por Capas",
+            "Un método que implementa operaciones para conectar componentes",
+            "Una colección de operaciones que especifica un servicio"
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 145,
+        "pregunta": "¿Qué es un puerto?",
+        "opciones": [
+            "Un atajo que permite conectar un componente con una interfaz",
+            "Un tipo de interfaz de componentes",
+            "Un protocolo de red",
+            "Una ventana específica del componente por donde pasan mensajes",
+            "Una función de la arquitectura que facilita que dos componentes se conecten"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 146,
+        "pregunta": "¿Cuál es el beneficio de trabajar con interfaces bien definidas entre componentes?",
+        "opciones": [
+            "Permite sustituir componentes sin importar su ubicación",
+            "Facilita una mayor abstracción para el diseño",
+            "Elimina las conexiones superfluas",
+            "Reduce la necesidad de desarrollos monolíticos",
+            "Domina la complejidad del sistema"
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 147,
+        "pregunta": "¿Qué representa un círculo unido al componente en UML?",
+        "opciones": [
+            "Interfaz proporcionada",
+            "Puerto interno",
+            "Interfaz requerida",
+            "Clase abstracta",
+            "Declaración de interfaz"
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 148,
+        "pregunta": "¿Qué símbolo representa una interfaz requerida en UML?",
+        "opciones": [
+            "Doble flecha",
+            "Círculo con flecha",
+            "Línea punteada",
+            "Rectángulo al borde del componente",
+            "Semicírculo unido al componente"
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 149,
+        "pregunta": "¿Qué relación indica que un componente implementa una interfaz?",
+        "opciones": [
+            "Agregación",
+            "Dependencia",
+            "Realización",
+            "Composición",
+            "Asociación"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 150,
+        "pregunta": "¿Qué condición debe cumplirse para que un componente pueda ser usado por otro?",
+        "opciones": [
+            "Que sus interfaces requeridas sean satisfechas por otro componente",
+            "Que utilicen los mismos puertos",
+            "Que tengan definidos puertos equivalentes",
+            "Que se encuentren en el mismo paquete",
+            "Que proporcionen las mismas interfaces"
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 151,
+        "pregunta": "¿Qué permite la sustitución de componentes?",
+        "opciones": [
+            "Aumentar la complejidad del sistema",
+            "Reducir el número de interfaces",
+            "Reemplazar artefactos sin modificar el sistema completo",
+            "Evitar definir interfaces",
+            "Agregar puertos ocultos"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 152,
+        "pregunta": "¿Qué condición es necesaria para que un componente pueda ser sustituido por otro?",
+        "opciones": [
+            "Que mantenga las mismas interfaces",
+            "Que tenga las mismas interfaces proporcionadas",
+            "Que utilice los mismos puertos",
+            "Que esté en el mismo programa",
+            "Que use el mismo lenguaje"
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 153,
+        "pregunta": "¿Qué rol cumple un puerto en un componente?",
+        "opciones": [
+            "Sustituye la interfaz",
+            "Compite con las interfaces para conectar con otros componentes",
+            "Limita el número de interfaces",
+            "Define rutas de comunicación con otros componentes",
+            "Controla cómo se interactúa con el componente"
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 154,
+        "pregunta": "What property does NOT correspond to a port?",
+        "opciones": [
+            "Has a name",
+            "Communicates through interfaces",
+            "Has its own implementation logic",
+            "Can have multiplicity",
+            "Has identity"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 155,
+        "pregunta": "¿Qué muestra el ejemplo del componente \"Vendedor de Entradas\" visto en clase?",
+        "opciones": [
+            "Un diagrama de bloques",
+            "Un sistema sin puertos",
+            "Uso de múltiples puertos para diferentes tipos de usuarios y servicios",
+            "Una aplicación monolítica",
+            "Es un ejemplo de vista lógica"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 156,
+        "pregunta": "¿Qué es una parte?",
+        "opciones": [
+            "Unidad de implementación interna de un componente",
+            "La porción menor de una interfaz",
+            "Una porción de un sistema delimitada por interfaces y puertos",
+            "Un tipo de puerto",
+            "Sinónimo de Componente"
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 157,
+        "pregunta": "¿Qué afirmación es correcta sobre las partes dentro de un componente?",
+        "opciones": [
+            "Son únicas por tipo",
+            "Pueden tener misma clase, pero diferente nombre",
+            "Se representan como puertos",
+            "No pueden conectarse entre sí",
+            "Solo hay una por componente"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 158,
+        "pregunta": "¿Qué representa un conector en un diagrama de componentes?",
+        "opciones": [
+            "Un enlace persistente entre partes",
+            "Ligar una interfaz requerida con una interfaz proporcionada",
+            "La manera en que dos partes se conectan fuera de un componente",
+            "Un enlace entre puertos compatibles por interfaz",
+            "La manera en que un componente enlaza con el exterior"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 159,
+        "pregunta": "¿Qué tipo de conector representa una línea directa entre puertos?",
+        "opciones": [
+            "Interfase extendida",
+            "Composición",
+            "Conector directo",
+            "Delegación",
+            "Junta circular"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 160,
+        "pregunta": "¿Qué función cumple el conector de delegación?",
+        "opciones": [
+            "Establece conexión lógica entre clases",
+            "Conecta dos partes de un componente",
+            "Enlaza dos componentes externos",
+            "Conecta interfaz con un componente",
+            "Conecta un puerto interno con uno externo"
+        ],
+        "correcta": 4
+    },
+    {
+        "id": 161,
+        "pregunta": "¿Cuál es el objetivo principal del diseño de la interfaz de usuario?",
+        "opciones": [
+            "Reducir el número de pantallas de la aplicación",
+            "Diseñar funciones técnicas con participación del usuario",
+            "Automatizar la operación de los sistemas por parte de los usuarios",
+            "Facilitar la interacción entre personas y sistemas de forma eficiente y natural",
+            "Hacer más eficiente uso de los recursos visuales utilizados"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 162,
+        "pregunta": "¿Qué efecto puede causar una interfaz mal diseñada?",
+        "opciones": [
+            "Aumenta la complejidad técnica",
+            "Genera frustración y errores en el usuario",
+            "Disminuye la velocidad de procesamiento",
+            "Afecta el rendimiento del sistema",
+            "Aumenta la necesidad de capacitación"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 163,
+        "pregunta": "¿Quiénes suelen diseñar la interfaz de usuario en la mayoría de las organizaciones, a pesar de que pueden crear interfaces poco atractivas por no ser especialistas?",
+        "opciones": [
+            "Administradores de bases de datos",
+            "Analistas de marketing",
+            "Los clientes",
+            "Ingenieros de software",
+            "Diseñadores gráficos"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 164,
+        "pregunta": "¿Por qué un buen diseño de interfaz de usuario es crítico para la confiabilidad del sistema?",
+        "opciones": [
+            "Porque reduce el tiempo de compilación.",
+            "Porque una mala interfaz causa que los usuarios cometan errores y sientan que el sistema los obstaculiza.",
+            "Porque optimiza las consultas a la base de datos",
+            "Porque determina el lenguaje de programación a utilizar.",
+            "Porque evita ataques de denegación de servicio."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 165,
+        "pregunta": "¿Qué factor emocional incrementa la posibilidad de que los usuarios cometan errores al operar el sistema?",
+        "opciones": [
+            "La rapidez del hardware.",
+            "El uso del ratón en lugar del teclado.",
+            "El estrés causado por sistemas que fallan y emiten mensajes de aviso y alarmas.",
+            "La excesiva capacitación.",
+            "El aburrimiento por tareas repetitivas."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 166,
+        "pregunta": "El principio de diseño de \"Familiaridad del usuario\" indica que:",
+        "opciones": [
+            "El sistema debe hablarle al usuario por su primer nombre.",
+            "El sistema debe incluir un manual extenso.",
+            "La interfaz debe utilizar términos y conceptos del entorno de trabajo del usuario, ocultando la implementación subyacente.",
+            "Todas las pantallas deben ser idénticas a las de la competencia."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 167,
+        "pregunta": "¿Qué principio busca reducir el tiempo de aprendizaje al estandarizar el formato de los comandos, parámetros y menús en toda la aplicación?",
+        "opciones": [
+            "Guía de usuario.",
+            "Diversidad.",
+            "Recuperabilidad.",
+            "Uniformidad de la interfaz.",
+            "Mínima sorpresa."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 168,
+        "pregunta": "Si una acción en un contexto provoca un cambio, y la misma acción en otro contexto diferente genera un resultado totalmente inesperado e impredecible, ¿qué principio se está violando?",
+        "opciones": [
+            "Principio de mínima sorpresa.",
+            "Recuperabilidad.",
+            "Familiaridad del usuario.",
+            "Uniformidad.",
+            "Diversidad de usuarios."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 169,
+        "pregunta": "¿En qué consiste la técnica de \"Generar puntos de control\" para la recuperabilidad?",
+        "opciones": [
+            "Pedirle al usuario su contraseña cada vez que guarda un archivo.",
+            "Requerir validación biométrica en operaciones críticas.",
+            "Grabar el estado del sistema en intervalos periódicos para poder retroceder al estado más inmediato ante un error.",
+            "Imprimir un reporte de errores diario.",
+            "Verificar la conexión a internet de forma continua."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 170,
+        "pregunta": "Al diseñar el sistema de asistencia (ayuda), se debe asegurar que:",
+        "opciones": [
+            "El sistema se bloquee hasta que el usuario lea el manual.",
+            "El usuario no se sienta saturado con la información cuando requiera ayuda.",
+            "La ayuda esté disponible únicamente impresa.",
+            "Solo los usuarios expertos tengan acceso a la ayuda.",
+            "Toda la información de ayuda se muestre en una sola pantalla."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 171,
+        "pregunta": "¿Qué estilo de interacción implica escribir instrucciones explícitas con parámetros, siendo muy poderoso pero difícil de aprender para los novatos?",
+        "opciones": [
+            "Lenguaje natural.",
+            "Cajas de diálogo.",
+            "Lenguaje de comandos.",
+            "Manipulación directa.",
+            "Selección de menús."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 172,
+        "pregunta": "Al decidir cómo presentar la información, el diseñador debe evaluar si el usuario necesita conocer valores precisos o si está más interesado en:",
+        "opciones": [
+            "Las relaciones y tendencias entre los valores de los datos.",
+            "El código fuente.",
+            "Los artefactos del Diseño.",
+            "Los artefactos del Análisis.",
+            "Los diagramas de colaboración del sistema."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 173,
+        "pregunta": "¿Cuándo es más adecuado utilizar una representación en texto en lugar de gráficos?",
+        "opciones": [
+            "Cuando se necesita presentar información precisa que cambia de forma relativamente lenta.",
+            "Cuando el espacio en pantalla es abundante.",
+            "Cuando se desean ver anomalías rápidas en un gráfico de barras.",
+            "Cuando la información cambia continua y dinámicamente en milisegundos.",
+            "Cuando el usuario está en una situación de alto estrés."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 174,
+        "pregunta": "¿Por qué los gráficos son más recomendables que las tablas de texto para los niveles gerenciales al mostrar datos de ventas mensuales?",
+        "opciones": [
+            "Porque las tablas de texto no soportan colores.",
+            "Porque los gerentes solo comprenden dibujos.",
+            "Porque ocupan menos espacio en la pantalla.",
+            "Porque los gráficos permiten destacar anomalías y tendencias rápidamente, más que los valores exactos.",
+            "Porque el software gráfico es más económico."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 175,
+        "pregunta": "Para representar información numérica que varía dinámicamente con alta rapidez (ej. la altitud de un avión), ¿por qué NO se recomienda usar valores digitales?",
+        "opciones": [
+            "Porque consumen demasiados recursos gráficos.",
+            "Porque resultan confusas y molestas, impidiendo que se lean antes de cambiar.",
+            "Porque requieren colores de alto contraste obligatoriamente.",
+            "Porque no se pueden programar.",
+            "Porque ocupan mucho espacio."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 176,
+        "pregunta": "¿Qué estilo de interacción se basa en arrastrar objetos con el puntero?",
+        "opciones": [
+            "Manipulación directa",
+            "Entrada de comandos",
+            "Validación automática",
+            "Rellenado de formularios",
+            "Menús desplegables"
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 177,
+        "pregunta": "¿Cuál es un ejemplo de interacción por lenguaje de comandos?",
+        "opciones": [
+            "Arrastrar un ícono a la papelera",
+            "Hacer clic en \"Archivo > Guardar\"",
+            "Escribir \"borrar archivo.txt\"",
+            "Usar voz para abrir una aplicación",
+            "Completar un formulario"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 178,
+        "pregunta": "¿Qué tipo de presentación gráfica es ideal para transmitir la sensación de valor relativo en variables continuas (como presión o temperatura)?",
+        "opciones": [
+            "Tablas dinámicas.",
+            "Vistas analógicas (como termómetros, barras u esferas con agujas).",
+            "Diagramas de clases.",
+            "Lenguaje natural.",
+            "Vistas digitales puras."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 179,
+        "pregunta": "¿Qué se hace en la interacción mediante selección de menúes?",
+        "opciones": [
+            "Se completan formularios",
+            "Se escriben comandos",
+            "Se elige una acción desde un listado de opciones",
+            "Se arrastran objetos",
+            "Se configuran scripts"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 180,
+        "pregunta": "¿Qué estilo de interacción implica frases como \"Mostrar agenda de mañana\"?",
+        "opciones": [
+            "Reconocimiento de voz",
+            "Menú contextual",
+            "Lenguaje natural",
+            "Manipulación directa",
+            "Comando estructurado"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 181,
+        "pregunta": "¿Cuál de las siguientes afirmaciones describe correctamente una característica del modelo de desarrollo basado en reutilización?",
+        "opciones": [
+            "Todas las etapas del proceso son iguales a las del modelo tradicional.",
+            "La etapa de validación se omite en favor de pruebas automatizadas.",
+            "Las etapas intermedias se modifican para incorporar componentes reutilizables.",
+            "El análisis de componentes se realiza después de la validación del sistema."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 182,
+        "pregunta": "¿Cuál es un ejemplo claro del valor 'Comunicación' en XP?",
+        "opciones": [
+            "Se evita hablar con el cliente hasta que el producto esté terminado.",
+            "Se realizan reuniones diarias breves para compartir avances y obstáculos.",
+            "Los desarrolladores se comunican solo por correo electrónico una vez por semana.",
+            "Cada miembro del equipo trabaja de forma aislada para evitar distracciones."
+        ],
+        "correcta": 1
+    },
+    {
+        "id": 183,
+        "pregunta": "¿Cuál de las siguientes acciones representa el valor 'Simplicidad' en XP?",
+        "opciones": [
+            "Utilizar algoritmos complejos para demostrar habilidades técnicas.",
+            "Diseñar un sistema con todas las funcionalidades posibles desde el inicio.",
+            "Implementar primero una solución básica que cumpla con los requisitos actuales.",
+            "Evitar escribir pruebas para ahorrar tiempo."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 184,
+        "pregunta": "¿Cómo se manifiesta el valor 'Retroalimentación' en XP?",
+        "opciones": [
+            "Evadiendo la revisión de código para evitar conflictos.",
+            "Ignorando los comentarios del cliente hasta el final del proyecto.",
+            "Recibiendo comentarios frecuentes de usuarios y ajustando el producto en consecuencia.",
+            "Realizando pruebas solo al final del desarrollo."
+        ],
+        "correcta": 2
+    },
+    {
+        "id": 185,
+        "pregunta": "¿Cuál es una muestra del valor 'Coraje' en XP?",
+        "opciones": [
+            "Eliminar código innecesario, aunque haya sido escrito por un colega.",
+            "No compartir ideas por temor a ser criticado.",
+            "Evitar cambios en el diseño para no generar conflictos.",
+            "Ignorar errores menores para avanzar más rápido."
+        ],
+        "correcta": 0
+    },
+    {
+        "id": 186,
+        "pregunta": "¿Qué acción refleja el valor 'Respeto' en XP?",
+        "opciones": [
+            "Permitir que cada miembro trabaje sin interacción con el equipo.",
+            "Aceptar todas las ideas sin discusión.",
+            "Evitar retroalimentación para no herir sentimientos.",
+            "Reconocer las contribuciones de todos los miembros del equipo."
+        ],
+        "correcta": 3
+    },
+    {
+        "id": 187,
+        "pregunta": "¿Cuál de las siguientes es una ventaja del Diseño Arquitectónico de Sistemas según el texto?",
+        "opciones": [
+            "Permite evitar completamente los errores en el desarrollo del software.",
+            "Facilita la gestión de la complejidad al ocultar detalles y centrarse en abstracciones clave.",
+            "Elimina la necesidad de negociar requerimientos con los clientes.",
+            "Se utiliza únicamente en las etapas finales del desarrollo del sistema."
+        ],
+        "correcta": 1
+    }
+]
